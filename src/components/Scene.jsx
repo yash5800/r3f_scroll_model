@@ -63,7 +63,6 @@ const Scene = ({progress}) => {
       fov={45} near={.1} far={10000} />
       <Environment preset='city' />
       <Watch />
-      <axesHelper args={[500]} />
     </>
   )
 }
